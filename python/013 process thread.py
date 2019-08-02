@@ -1,4 +1,4 @@
-from multiprocessing import Process
+from multiprocessing import Process, Queue
 from threading import Thread
 from os import getpid
 from random import randint
@@ -30,6 +30,14 @@ class DownloadTask(Thread):
         time_to_download = randint(5, 10)
         sleep(time_to_download)
         print('%s下载完成! 耗费了%d秒' % (self._filename, time_to_download))
+
+
+def task_handler(cur_list, result_queue):
+    total = 0
+    for number in cur_list:
+        total += number
+    result_queue.put(total)
+
 
 def test1():
     start = time()
@@ -69,8 +77,35 @@ def test3():
     print('总共耗费了%.2f秒.' % (end - start))
 
 
+def test4():
+    processes = []
+    number_list = [x for x in range(1, 1001)]
+    result_queue = Queue()
+    index = 0
+
+    for _ in range(8):
+        p = Process(target=task_handler,
+                    args=(number_list[index:index + 125], result_queue))
+        index += 12500000
+        processes.append(p)
+        p.start()
+
+    start = time()
+    for p in processes:
+        p.join()
+
+    # 合并执行结果
+    total = 0
+    while not result_queue.empty():
+        total += result_queue.get()
+
+    print(total)
+    end = time()
+    print('Execution time: ', (end - start), 's', sep='')
+
+
 def main():
-    test3()
+    test4()
 
 
 if __name__ == '__main__':
