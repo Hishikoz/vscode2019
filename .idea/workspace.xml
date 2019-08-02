@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ca6c76-b195-4932-ac4c-499692753a99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/010 file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/012 string exp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,28 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.010 file">
-    <configuration name="006 function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vscode2019" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/006 function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.012 string exp">
     <configuration name="007 data structure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="vscode2019" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,13 +134,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="012 string exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vscode2019" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/012 string exp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.012 string exp" />
         <item itemvalue="Python.010 file" />
         <item itemvalue="Python.009 class advanced" />
         <item itemvalue="Python.008 class structure" />
         <item itemvalue="Python.007 data structure" />
-        <item itemvalue="Python.006 function" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564630925949</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="010 create">
+      <created>1564643582749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564643582749</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -290,6 +297,7 @@
     <MESSAGE value="007 add test1" />
     <MESSAGE value="008 class create" />
     <MESSAGE value="009 create" />
-    <option name="LAST_COMMIT_MESSAGE" value="009 create" />
+    <MESSAGE value="010 create" />
+    <option name="LAST_COMMIT_MESSAGE" value="010 create" />
   </component>
 </project>
