@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ca6c76-b195-4932-ac4c-499692753a99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python/012 string exp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/012 string exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/012 string exp.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564643582749</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="012 create">
+      <created>1564709816511</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564709816511</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -298,6 +305,7 @@
     <MESSAGE value="008 class create" />
     <MESSAGE value="009 create" />
     <MESSAGE value="010 create" />
-    <option name="LAST_COMMIT_MESSAGE" value="010 create" />
+    <MESSAGE value="012 create" />
+    <option name="LAST_COMMIT_MESSAGE" value="012 create" />
   </component>
 </project>
